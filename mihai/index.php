@@ -1,3 +1,3 @@
 <?php
-	print "Mihai Lodoaba";
+	echo "Mihai Lodoaba";
 ?>
