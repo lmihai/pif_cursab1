@@ -9,5 +9,5 @@ function dif($a,$b){
 }
 
 print(sum(10,20));
-
+print(dif(10,20));
 ?>
