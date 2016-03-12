@@ -1,0 +1,21 @@
+
+
+$players = array(
+    'John Doe' => array('7', '3', '5', '20', '21', '23'),
+    	'firts_name' => 60%
+    ),
+    'Jane Foo' => array(
+    	'lotto_numbers' => array(7, '3', '20', '21', '23', '13'),
+    ),
+    'Elvis Peanutbutter' => array(
+    	'lotto_numbers' => array('7', '3', '5', '20', '21', '23'),
+    )
+);
+
+
+$players['Elvis Peanutbutter']['lotto_numbers'][4]; // 21
+
+// 13 la jane foo
+
+$players['Jane Foo']['lotto_numbers'][] = 13;
+unset($players['Jane Foo']['lotto_numbers'][2]);
