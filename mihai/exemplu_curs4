@@ -1,8 +1,10 @@
 
 
 $players = array(
-    'John Doe' => array('7', '3', '5', '20', '21', '23'),
+    'John Doe' =>array( 
+    	'lotto_numbers' => array('7', '3', '5', '20', '21', '23'),
     	'firts_name' => 60%
+    	)
     ),
     'Jane Foo' => array(
     	'lotto_numbers' => array(7, '3', '20', '21', '23', '13'),
