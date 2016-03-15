@@ -5,7 +5,7 @@
 // Multiplu de 3 si 5 PayForward
 //Numerele de la 1-100
 
-for ($i=1; $i < 100 ; $i++) { 
+for ($i=1; $i < 101 ; $i++) { 
 	if ($i % 3 == 0) {print ' Pay';};
 	if ($i % 5 == 0) {print ' Forward';};
 	if (($i % 3 != 0)&&($i % 5 != 0)){print ' '.$i;};
