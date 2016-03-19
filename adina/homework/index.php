@@ -185,7 +185,7 @@ Write a program that orders ascendingly the
 following array:
 $array = array(2, 3, 1, 5, 4);
 <?php
-
+sort($numbers_array);
 print_r($numbers_array);
 ?>
 <br/>
