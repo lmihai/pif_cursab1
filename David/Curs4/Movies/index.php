@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+ 
 	<title>Movies</title>
 </head>
 <body>
@@ -37,6 +38,16 @@
 <hr>
 <?php 
 	$film = $_GET['film_id'];
+	print($movies_array[$film]['title']);
+	print('</br>');
+	print($movies_array[$film]['year']);
+	print('</br>');
+	print("<img src='".$movies_array[$film]['image']."'>");
+	print('</br>');
+?>
+<hr>
+<?php 
+	$film= 1;
 	print($movies_array[$film]['title']);
 	print('</br>');
 	print($movies_array[$film]['year']);
