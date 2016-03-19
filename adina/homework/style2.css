@@ -1,0 +1,59 @@
+.border 
+	{
+		border-radius: 20px;
+		border: 2px solid #800000;
+		padding: 20px;
+	}
+.margins
+	{
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+.color_red
+	{
+		color: #990000;
+	}
+.backcolor
+	{
+		background: #ffffcc;
+	}
+img
+	{
+		width: 450px;
+	}
+.number
+	{
+		margin: 5px;
+	}
+.even
+	{
+		font-style: italic;
+		font-size: 15px;
+		color: #ff0000;
+	}
+.odd
+	{
+		font-weight: bold;
+		font-size: 15px;
+		color: #009900;
+	}
+#i1 {padding-left: 10px;}
+#i2 {padding-left: 15px;}
+#i3 {padding-left: 20px;}
+#i4 {padding-left: 25px;}
+#i5 {padding-left: 30px;}
+#i6 {padding-left: 35px;}
+#i7 {padding-left: 40px;}
+#i8 {padding-left: 45px;}
+#i9 {padding-left: 50px;}
+#i11 {padding-left: 20px;}
+#i10 {padding-left: 15px;}
+#i12 {padding-left: 25px;}
+#i13 {padding-left: 30px;}
+#i14 {padding-left: 35px;}
+#i15 {padding-left: 40px;}
+#i16 {padding-left: 45px;}
+#i17 {padding-left: 50px;}
+#i18 {padding-left: 55px;}
+#i19 {padding-left: 60px;}
+#i20 {padding-left: 65px;}
