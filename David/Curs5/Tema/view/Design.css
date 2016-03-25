@@ -1,0 +1,19 @@
+
+.Blue{
+	background-color: #5d8aa8;
+	color: #ffffff;
+}
+div{
+	text-align: center;
+}
+.col-lg-4{
+	text-align: left;
+}
+.Border{
+	border: green solid;
+	margin:auto;
+	width: 60%;
+	height: 650px;
+
+
+}

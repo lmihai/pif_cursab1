@@ -12,5 +12,6 @@
 <div>
 	<?php print($page['content']);?>
 </div>
+	<?php include 'form.html.php' ?>
 </body>
 </html>
