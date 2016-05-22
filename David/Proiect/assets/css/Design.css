@@ -1,0 +1,44 @@
+body{
+	background: url("../img/bg1.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ 
+}
+	
+.button{
+	color:blue;
+	border: solid 3px blue;
+
+}
+#home-button{
+	margin-top: 20%;
+}
+
+#contact-button{
+	margin-top: 100%;
+}
+
+.review, .colaboratori {
+	margin-top: 100px
+}
+
+.home {
+	margin-top: 50px;
+}
+
+.with-bg {
+	background-color: #d3d3d3;
+}
+.frame{
+	box-shadow: 1px 5px 5px #888888;
+	background-color: #f2f2f2;
+	border-right: solid 1px;
+	border-left: solid 1px;
+	border-top: solid 1px; 
+
+}
+.frame-size{
+	height: 150px;
+}

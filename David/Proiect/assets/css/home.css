@@ -1,0 +1,32 @@
+.brand{
+	width: 100px;
+	float: left;
+}
+.company_name{
+	font-weight: bold;
+}
+body{
+	background: url("../img/bg1.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ 
+}	
+.logo{
+	margin-top: -15px;
+	width: 80px;
+
+}
+.cta-mid{
+	text-align: center;
+	color: white;
+	
+}
+.cta-bg{
+	background-color: #696969
+}
+.col-xs-4{
+	text-align: center;
+	margin-top: 30px;
+}
