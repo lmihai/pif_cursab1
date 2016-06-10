@@ -39,3 +39,16 @@ function get_menu_with_template($pages, $exclude = array())
 
     return $html;
 }
+
+function menu_page_visit(){
+    
+    $page_visited='<li class="active"><a href="">'. $_GET['page'].'<span class="sr-only">(current)</span></a></li>';
+    $page_normal='<li><a href="?page='.service.'">Service</a></li>';
+
+    foreach ($pages as $value) {
+        if ($value==$_GET['page']){print $page_visited;}else{print $page_normal;};
+    }
+    
+
+    //print $page_visited;
+}

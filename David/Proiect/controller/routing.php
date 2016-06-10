@@ -1,5 +1,5 @@
 <?php
-//include 'menu.php';
+include 'menu.php';
 
 //$menu = get_menu_with_template($pages, array());
 
@@ -39,3 +39,7 @@ if(isset($_GET['page'])){
 	include dirname(__DIR__) . "/view/404.php";
 	return ob_get_contents();	
 }
+
+
+
+
