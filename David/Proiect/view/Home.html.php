@@ -17,39 +17,11 @@
 
 </head>
 <body>
-<div class="navbar navbar-default navbar-static-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header"><a class="navbar-brand" href="">Auto Dakar</a>
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse navbar-main">
-                <ul class="nav navbar-nav navbar-left">
-                    <li><a href="">Home</a></li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="">Page 1
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="" class="asd">Page 1-1</a></li>
-                            <li><a href="">Page 1-2</a></li>
-                            <li><a href="">Page 1-3</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Contact Us</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="fa fa-user"></span> Sign Up</a></li>
-                    <li><a href="#"><span class="fa fa-sign-in"></span> Login</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
+<!-- Header - menu -->
+<?php include "templates/Header_menu.php" ?>
+
+<!-- Container carousel -->
+
 <div class="container">
     <div class="row">
         <div id="Carousel" class="carousel slide" data-ride="carousel">
@@ -99,6 +71,7 @@
         </div>
     </div>
 </div>
+<!-- End Carousel -->
 
 <!-- Left and right Columns -->
 <div class="container body-margin ">
@@ -106,90 +79,52 @@
         <div class="limit">
             <hr>
         </div>
-<div class="container body-content">
-    <div class="row ">
-        <div class="col-sm-4 left-column">
+        <div class="container body-content">
+            <div class="row ">
 
-            <h1>Title - Some Evil text here</h1>
-            <hr>
-            <div class="col-sm-1">
-            </div>
-            <div class="col-sm-11">
-                <p>Text comes here </p>
-                <p>even more comes here</p>
-                <br>
-                <p>just try</p>
-            </div>
+    <!-- Left Column -->
+                <div class="col-sm-4 left-column">
 
-        </div>
-        <div class="col-sm-1"></div>
-        <div class="col-sm-7 right-column">
-            <h1>Title - Some  EVIL  text here and there and everywhere</h1>
-            <hr>
-            <div class="col-sm-1">
-            </div>
-            <div class="col-sm-11">
-                <p>Text comes here </p>
-                <p>even more comes here</p>
-                <br>
-                <p>just try</p>
+                    <h1>Title - Some Evil text here</h1>
+                    <hr>
 
+                    <div class="col-sm-1"></div>
+
+                    <div class="col-sm-11">
+                        <p>Text comes here </p>
+                        <p>even more comes here</p>
+                        <!-- <br> -->
+                        <p>just try</p>
+                    </div>
+
+                </div>
+                <!-- Space Between columns -->
+                <div class="col-sm-1"></div>
+
+    <!-- Right Column -->
+
+                <div class="col-sm-7 right-column">
+                    <h1>Title - Some  EVIL  text here and there and everywhere</h1>
+                    <hr>
+
+                    <div class="col-sm-1"></div>
+
+                    <div class="col-sm-11">
+                        <p>Text comes here </p>
+                        <p>even more comes here</p>
+                        <br>
+                        <p>just try</p>
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
-</div>
-    </div>
+<!-- End Columns -->
+
 <!-- Footer -->
-<footer class="container-fluid footer_style">
-    <div class="row">
-        <div class="container">
-            <hr>
-            <div class="col-sm-4">
-                <div class="footer-columns">
-
-                    <span class="fa fa-circle-o-notch">
-                        <span>TEAM</span>
-                    </span>
-
-                    <p>Our HighSchool</p>
-                    <p>Teachers</p>
-                    <p>Parteners</p>
-
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="footer-columns">
-
-                    <span class="fa fa-comment">
-                        <span> CONTACT</span>
-                    </span>
-
-                    <p>+0786941315</p>
-                    <p>FACEbook and stuff</p>
-                    <p>along with pictures</p>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="footer-columns">
-
-                    <span class="fa fa-shield">
-                        <span> CODE CLUB</span>
-                    </span>
-
-                    <p>Google-maps</p>
-                </div>
-            </div>
-        </div>
-        <div class="copyright">
-            <div class="container">
-                <span>@ Code Club - 2016</span>
-            </div>
-
-        </div>
-
-    </div>
-</footer>
+<?php include "templates/Footer.php";  ?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 </body>

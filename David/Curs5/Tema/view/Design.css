@@ -1,9 +1,23 @@
-
+#asd { 
+  background: url('http://giffiles.alphacoders.com/115/11551.gif') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ 
+ 
+   filter: blur(1px);
+}
+body{
+	background-color: transparent;
+}
 .Blue{
 	background-color: #5d8aa8;
 	color: #ffffff;
 }
 div{
+	filter: blur(0);
+	background-color: white;
 	text-align: center;
 }
 .col-lg-4{
@@ -13,7 +27,8 @@ div{
 	border: green solid;
 	margin:auto;
 	width: 60%;
-	height: 650px;
+	padding-bottom: 20px;
+	height: auto;
 
 
 }

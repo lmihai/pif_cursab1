@@ -1,8 +1,10 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -12,32 +14,20 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-<link rel="stylesheet" type="text/css" href="home.css"/>
+<link rel="stylesheet" type="text/css" href="Design.css" />
 </head>
 <body>
-<div class="menu">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="col-md-2">
-					<p>Home</p>
-				</div>
-				<div class="col-md-2">
-					<p>Contact</p>
-				</div>
-				<div class="col-md-4" >
-					<img src="logo.png">
-				</div>
-				<div class="col-md-2">
-					<p>Review</p>
-				</div>
-				<div class="col-md-2">
-					<p>Colaboratori</p>
-				</div>
-			</div>
-		</div>
-	</div>
+<div class="container Border">
+	<h2> Answers </h2>
+	<?php
+	  foreach ($data as $key => $value) {
+	  	?>
+	  	<div class="row">
+	  	<strong> <?php print $key; ?></strong> - <?php print $value; ?>
+	  	</div>
+	  	<?php
+	  }
+	?>
 </div>
-
 </body>
 </html>
